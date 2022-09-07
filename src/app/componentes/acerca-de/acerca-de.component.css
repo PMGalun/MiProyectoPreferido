@@ -1,3 +1,89 @@
+.row{
+  padding:20px;
+}
+
 div{
-    background-color:#6ea7e3
+    background-color:rgb(190, 136, 206);
+    text-align: center;
+    border-radius:50px;
   }
+
+  img {
+    width:100px; 
+    height: 150px;
+    display:flex;
+    box-shadow: 10px 10px 7px  rgb(232, 173, 218);
+    padding: 10px;
+    border-radius: 30px;
+    background-color:rgb(190, 136, 206);
+ 
+    border: 5px rgb(153, 60, 137);
+   }
+/*Estilo de la foto de perfil*/
+
+
+@media(max-width::575px){
+  #mifoto{
+    position:absolute;
+    width:15%;
+    border-radius:100%;
+    left: 33%;
+    top:600px;
+}
+
+}
+@media(min-width::574px){
+  #mifoto{
+    position:absolute;
+    width:30%;
+    border-radius:100%;
+    left: 33%;
+    top:600px;
+}
+
+}
+   li {
+    background-color:rgb(238, 109, 238);
+    padding:auto;
+    border-bottom: 50%;
+    margin: 10px;
+    border-radius:50px;
+    border: 10px inset rgb(230, 132, 215);
+    float: left;
+  }
+   
+  
+   h1 {
+    display: flex-block;
+    color: rgb(17, 147, 147);
+    inline-size: 100%;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+   }    
+
+
+   .parrafos {
+    font-size: left;
+    color:blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    display: margin-left;
+     } 
+
+   .figure-caption
+   {font-size: left;
+    color:blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: left;
+     }
+    
+   .nombre{
+    font-weigth:bold;
+    margin-top:30px;
+        
+   }
+   
