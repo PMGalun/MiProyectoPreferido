@@ -11,6 +11,8 @@ import { HyHComponent } from './componentes/hy-h/hy-h.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
