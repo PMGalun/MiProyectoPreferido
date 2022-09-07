@@ -4,6 +4,7 @@
     div{
         background-color:rgb(190, 136, 206);
         border-radius:50px;
+       
            }
 
     h1 {
@@ -24,13 +25,11 @@
         font-size:large;
         font-style: italic;
         color:#fefefe
-        
-}
-
+        }
 p{
     color: blanchedalmond;
 }
-
+    
 #Aegis{
     width: 3%;
    height: 30px;
@@ -45,12 +44,4 @@ p{
    width: 3%;
   height: 30px;
 
-}    
-h1 {
-    color: rgb(25, 143, 143);
-    inline-size: 100%;
-    display: flex-block;
-    font-size: xx-large;
-    font-style: italic;
-    text-align: center;
- }        
+}  

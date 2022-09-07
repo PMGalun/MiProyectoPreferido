@@ -1,88 +1,88 @@
-.row{
-  padding:15px;
-}
-
 div{
-    background-color:rgb(190, 136, 206);
-    text-align: center;
+  background-color:rgb(190, 136, 206);
     border-radius:50px;
     }
-
-  img {
-    width:100px; 
-    height: 150px;
-    display:flex;
-    box-shadow: 10px 10px 7px  rgb(232, 173, 218);
-    padding: 10px;
-    border-radius: 30px;
-    background-color:rgb(190, 136, 206);
- 
-    border: 5px rgb(153, 60, 137);
-   }
 /*Estilo de la foto de perfil*/
-
-
-@media(max-width::575px){
+@media(min-width:576px){
   #mifoto{
     position:absolute;
-    width:15%;
+    width: 15%;
     border-radius:100%;
-    left: 33%;
-    top:600px;
+    box-shadow: 3px 3px 3px plum;
+    left: 3%;
+    top: 600px;
+    }
 }
-
-}
-@media(min-width::574px){
+@media(max-width:575px){
   #mifoto{
     position:absolute;
-    width:30%;
+    width: 30%;
     border-radius:100%;
+    box-shadow: 3px 3px 3px plum;
     left: 33%;
-    top:600px;
+    top: 630px;
 }
-
 }
-   li {
-    background-color:rgb(238, 109, 238);
-    padding:auto;
-    border-bottom: 50%;
-    margin: 10px;
-    border-radius:50px;
-    border: 10px inset rgb(230, 132, 215);
-    float: left;
-  }
    
-  
-   h1 {
-    display: flex-block;
-    color: rgb(17, 147, 147);
-    inline-size: 100%;
-    font-size: xx-large;
-    font-style: italic;
-    text-align: center;
+/*Etiqueta nombre*/
+#nombre{
+  font-weight: bold;
+  margin-top: 30%;
  }
-    
-   .parrafos {
-    font-size: left;
-    color:blanchedalmond;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    margin: auto;
-    text-align: center;
-    display: margin-left;
-     } 
 
-   .figure-caption
-   {font-size: left;
-    color:blanchedalmond;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    text-align: left;
+    /**foto de perfil**/
+    img {
+      width:150px; 
+      height: 120px;
+      display:flex;
+      box-shadow: 10px 10px 7px  rgb(232, 173, 218);
+      padding: 10px;
+      border-radius: 30px;
+      background-color:rgb(190, 136, 206);
+      padding:auto;
+      border: 5px rgb(153, 60, 137);
      }
+
+
+      /*estilo de botones*/
+      li {
+      background-color:rgb(238, 109, 238);
+      display:inline-block;
+      padding:auto;
+      border-bottom: 50%;
+      margin: 10px;
+      border-radius:50px;
+      border: 10px inset rgb(230, 132, 215);
+      border: 5px inset #093361;
+      box-shadow: 10px 10px 7px  rgb(54, 5, 228);
+    }
     
-   .nombre{
-    font-weigth:bold;
-    margin-top:30px;
+      
+  
+     h1 {
+      display: flex-block;
+      font-size: xx-large;
+      font-style: italic;
+      text-align: center;
+      color: rgb(36, 20, 135);
+      inline-size: 150%;
+      }        
         
-   }
-   
+       
+     .parrafos {
+      font-size: medium;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+      margin: auto;
+      text-align: center;
+      color: black;
+      display:inline-block;
+      }
+          
+      p {
+        color: #fefefe;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        margin:auto;
+        display:inline-block;
+       } 
