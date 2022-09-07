@@ -1,12 +1,12 @@
 .row{
-  padding:20px;
+  padding:15px;
 }
 
 div{
     background-color:rgb(190, 136, 206);
     text-align: center;
     border-radius:50px;
-  }
+    }
 
   img {
     width:100px; 
@@ -60,9 +60,8 @@ div{
     font-size: xx-large;
     font-style: italic;
     text-align: center;
-   }    
-
-
+ }
+    
    .parrafos {
     font-size: left;
     color:blanchedalmond;
