@@ -13,6 +13,8 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FormsModule } from '@angular/forms';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FormsModule } from '@angular/forms';
     HyHComponent,
     EducacionComponent,
     BannerComponent,
-    LogoAPComponent
+    LogoAPComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
