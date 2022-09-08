@@ -1,109 +1,86 @@
-div{
-  background-color:rgb(190, 136, 206);
-    border-radius:50px;
-    }
-/*Estilo de la foto de perfil*/
-@media(min-width:576px){
-  #mifoto{
-    position:absolute;
-    width: 15%;
-    border-radius:100%;
-    box-shadow: 3px 3px 3px plum;
-    left: 3%;
-    top: 600px;
-    }
-}
-/*datos de la foto*/
-img {
-  @media (min-width:576px)
-    width:100px; 
-    height: 150px;
-    margin:left;
-    display:flex;
-    box-shadow: 10px 10px 7px  rgb(54, 5, 228);
-    padding: 10px;
-    border-radius:600px;}
-   
-@media(max-width:575px){
-  #mifoto{
-    position:absolute;
-    width: 30%;
-    border-radius:100%;
-    box-shadow: 3px 3px 3px plum;
-    left: 33%;
-    top: 630px;
-}
-}
-/*Etiqueta nombre*/
-#nombre{
-  font-weight: bold;
-  margin-top: 30%;
-  display: flex;
-flex-direction: column;
-text-align: left;
-box-shadow: 2px 2px 5px #999;
- }
-
-    /**foto de perfil**/
-    img {
-      width:150px; 
-      height: 120px;
-      display:flex;
-      box-shadow: 10px 10px 7px  rgb(232, 173, 218);
-      padding: 10px;
-      border-radius: 30px;
-      background-color:rgb(190, 136, 206);
-      padding:auto;
-      border: 5px rgb(153, 60, 137);
-     }
-
-
-      /*estilo de botones*/
+        
+    /*estilo de botones*/
       li {
       background-color:rgb(238, 109, 238);
-      display:inline-block;
-      padding:auto;
+      display:inline;
       border-bottom: 50%;
-      margin: 1px;
-      border-radius:5px;
-      border: 10px inset rgb(230, 132, 215);
-      border: 5px inset #093361;
-      box-shadow: 10px 10px 7px  rgb(54, 5, 228);
+      margin: 10px;
+      box-shadow: 10px 10px 7px  rgb(229, 55, 186);
+      padding: auto;
+      border-radius:100px;
+      margin: 10px;
+      border: 5px inset rgb(229, 55, 186) ;         
     }
     
-      
-  
-     h1 {
-      display: flex-block;
-      font-size: xx-large;
+   /*barra de arriba*/
+   div{
+    background-color:rgb(230, 132, 215);
+    border-radius:50px;
+   }
+
+    h1 {
+    display: flex-block;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    color: rgb(4, 46, 46);
+    inline-size: 100%;
+    }
+    p {
+      font-size:medium;
+      color:black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-style: italic;
-      text-align: center;
-      color: rgb(36, 20, 135);
-      inline-size: 150%;
-      }        
-        
-       
-     .parrafos {
+      margin:auto;
+      display:inline-block;
+      text-align:center;
+    }
+
+    .parrafos {
       font-size: medium;
+      color: black;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-style: italic;
       margin: auto;
       text-align: center;
-      color: black;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-       box-shadow: 2px 2px 5px #999;
-      }
-          
-      p {
-        font-size:medium;
-        color:black;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-style: italic;
-        margin:auto;
-        text-align:center;
-         display: flex;
-        flex-direction: column;
-        box-shadow: 2px 2px 5px #999;
-      }
+       }             
+  /*Estilos fotos de perfil*/
+  @media (min-width:576px){
+    #mifoto {
+      position: absolute;
+      width: 15px;
+      border-radius: 100px;
+      box-shadow: 3px 3px 3px lightblue;
+      left: 15%;
+      top: 60px;
+    }
+
+  }
+
+  /*Estilo de la foto de perfil*/
+img {
+  @media (min-width:576px)
+  width: 15%;
+    height: 150px;
+    margin:left;
+    display:flex;
+    box-shadow: 10px 10px 7px  rgb(229, 55, 186);
+    padding: 10px;
+    border-radius:100px;
+   }
+
+   /*Estilo de la foto de perfil*/
+   @media(max-width:575px){
+    #mifoto{
+      position:absolute;
+      width: 30%;
+      border-radius:100%;
+      box-shadow: 3px 3px 3px plum;
+      left: 33%;
+      top: 630px;
+  }
+  }
+
+
+
+

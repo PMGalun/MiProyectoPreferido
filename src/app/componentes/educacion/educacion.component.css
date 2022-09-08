@@ -1,12 +1,8 @@
-.row{
-    padding: 15px;
-    }
     div{
-        background-color:rgb(190, 136, 206);
+        background-color:rgb(230, 132, 215);
         border-radius:50px;
-       
-           }
-
+       }
+    
     h1 {
         display: flex-block;
         font-size: xx-large;
@@ -25,9 +21,7 @@
         font-size:large;
         font-style: italic;
         color:#fefefe
-        
-}
-
+        }
 p{
     color: blanchedalmond;
 }
@@ -47,14 +41,7 @@ p{
   height: 30px;
 
 }    
-h1 {
-    color: rgb(25, 143, 143);
-    inline-size: 100%;
-    display: flex-block;
-    font-size: xx-large;
-    font-style: italic;
-    text-align: center;
- }        
+
 
  p{
     color:blanchedalmond;

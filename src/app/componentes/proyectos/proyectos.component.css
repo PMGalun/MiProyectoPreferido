@@ -1,5 +1,5 @@
 .row{
-    background-color:rgb(190, 136, 206);
+    background-color:rgb(230, 132, 215);
     padding: 20px;
     border-radius:50px;
       }
@@ -17,3 +17,14 @@
         box-shadow: 10px 10px 30px rgb(46, 10, 57);
         
       }
+
+      h1 {
+        display: flex-block;
+        font-size: xx-large;
+        font-style: italic;
+        text-align: center;}
+
+        div{
+          background-color:rgb(230, 132, 215);
+          border-radius:50px;
+         }

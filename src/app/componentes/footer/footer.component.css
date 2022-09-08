@@ -1,7 +1,8 @@
-.row {
-    background-color:rgb(190, 136, 206);
+div{
+    background-color:rgb(230, 132, 215);
     border-radius:50px;
-    }
+   }
+   
     footer{
         color: #fefefe;
         font-size: 14px;
@@ -9,4 +10,8 @@
         flex-direction: column;
         text-align: center;
         box-shadow: 2px 2px 5px #999;
+    }
+
+    p{
+        color: blanchedalmond;
     }
